@@ -33,13 +33,13 @@ De blog-applicatie heeft op dit moment nog geen pagina's en ook geen routing. Di
 
 * Maak vier pagina-componenten aan. Zorg ervoor dat deze pagina's te bereiken zijn op de volgende *urls*:
 
-1. Home pagina (`/`)
+1. HomePage pagina (`/`)
 2. Login pagina (`/login`)
 3. Blog Overzicht pagina (`/blogposts`)
 4. Blogpost pagina (`/blogposts/:blogId`)
 
 * Zorg ervoor dat er *content* op die pagina's komt te staan:
-    * Maak een navigatiebalk met de links naar de Home Pagina, Login pagina en Blog Overzicht pagina. Zorg dat deze op
+    * Maak een navigatiebalk met de links naar de HomePage Pagina, Login pagina en Blog Overzicht pagina. Zorg dat deze op
       iedere pagina te zien is.
     * De **Login pagina** bevat simpelweg een knop met "Inloggen" die de gebruiker doorstuurt naar overzichtspagina;
     * De **Blog Overzicht pagina** bevat de totale hoeveelheid posts (*getal*) en alle blog-titels. De titels zijn links
@@ -86,3 +86,5 @@ We gaan er ook voor zorgen dat de navigatiebalk zich aanpast wanneer een gebruik
   dan een `users.json` bestand maken met gebruikers erin, zodat je iemand daadwerkelijk kunt laten "inloggen" met een
   bestaand account.
 - Make it look nice!
+
+`https://github.com/hogeschoolnovi/frontend-react-private-blog`
